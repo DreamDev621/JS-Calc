@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Cambay', sans-serif;
+}
+
+/* MAIN MENU BAR */
+ul.main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    list-style: none;
+    height: 7vh;
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+li button{
+    font-size: 1.5rem;
+    color: 000;
+    display: block;
+    text-decoration: none;
+    background: none;
+}
